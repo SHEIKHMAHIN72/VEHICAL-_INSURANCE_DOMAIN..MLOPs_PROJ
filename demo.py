@@ -1,4 +1,4 @@
-# below code is to check the logging config
+'''# below code is to check the logging config
 from src.logger import logging
 
 logging.debug("This is a debug message.")
@@ -19,3 +19,4 @@ except Exception as e:
     logging.info(e)
     raise MyException(e, sys) from e
 
+'''
